@@ -1,0 +1,89 @@
+
+/* Configurações gerais da página */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f7;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #167d78;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #105e5a;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #167d78;
+}
+
+h3 {
+    color: #105e5a;
+}
+
+/* Rodapé */
+footer {
+    background-color: #105e5a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Adaptação para celulares */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    main {
+        padding: 12px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
